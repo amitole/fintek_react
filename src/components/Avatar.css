@@ -1,0 +1,48 @@
+.avatar {
+  width: 30%;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  flex-grow: 1;
+}
+
+.avatar-image {
+  width: 100%;
+  margin-bottom: 3%;
+  padding: 0;
+}
+
+.avatar-job {
+  color: lightgray;
+  flex-basis: 100%;
+  margin-top: 1%;
+  padding: 0;
+  
+}
+
+.avatar-name {
+  flex-basis: 100%;
+  margin-bottom: 1%;
+  padding: 0;
+}
+
+@media (max-width: 1033px) {
+  .avatar {
+    width: 30%;
+  }
+}
+@media (max-width: 768px) {
+  .avatar {
+    width: 50%;
+  }
+}
+
+@media (max-width: 414px) {
+  .avatar {
+    width: 100%;
+  }
+}
